@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Rubik', sans-serif;
+}
+
+.carousel-inner{
+    box-shadow: 0 0 12px rgba(31, 31, 31, 0.7);    
+}
+
+.container-card{
+    display: flex;
+    justify-content: center;
+    padding: 53px;
+    background-image: url(./assets/grid-background.jpg);
+    flex-wrap: wrap;
+    
+ }
+ 
+ .card{
+    margin: 12px;
+    border-radius: 1%;
+    box-sizing: border-box;
+    object-fit: contain;
+ }
+
+ .modal-header{
+     padding-left: 60px;
+ }
+
+.navbar{
+    background-color: #e0e0e080;
+}
+
+.contactanos{
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    padding-top: 20px;
+}
+
+.card-group img{
+     width: 17%;
+     height: 40%;
+     margin: 10%;
+     margin-left: 43%;
+}
+
+.card-body{
+    font-size: 1em;
+    text-align: center;
+}
+
+h5{
+    color: red;
+}
+
+.modal-body{
+padding: 46px 0;
+}
+
+.input-group-text{
+    width: 100px;
+}
+
+
+
+/* --------------------------------------------------------@media--------------------------------------------- */
+
+@media (min-width:360px){
+    .modal-header img{
+        width: 75%;
+    }
+}
